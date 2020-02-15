@@ -6,7 +6,7 @@
         'components' => [
             'urlManager' => [
                 'enablePrettyUrl' => true,
-                'showScriptName' => false,
+                'showScriptName' => false, 
                 'rules' => [
                     '/' => 'site/index',
                     '<action:\w+>' => 'site/<action>'
