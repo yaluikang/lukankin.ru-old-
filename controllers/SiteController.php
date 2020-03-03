@@ -20,7 +20,7 @@
         }
         public function actionNewItems ()
         {
-            echo '123';
+            echo '564';
             return $this->render('index');
         }
     }
