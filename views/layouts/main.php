@@ -1,6 +1,6 @@
 <?php
     use yii\helpers\Url;
-    use app\AppAsset;
+    use app\assets\AppAsset;
 
     AppAsset::register($this);
 ?>
