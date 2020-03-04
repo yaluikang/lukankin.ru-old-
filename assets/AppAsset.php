@@ -1,12 +1,12 @@
 <?php
  namespace app\assets;
 
- use Yii\web\AssetBundle;
+ use yii\web\AssetBundle;
 
  class AppAsset extends AssetBundle
  {
-     public $basePath = '@webroot';
-     public $baseUrl = '@web';
+     public $basePath = 'var/www/lukankin.ru';
+     public $baseUrl = 'web/';
      public $css = [
 
      ];
