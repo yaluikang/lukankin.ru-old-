@@ -1,5 +1,8 @@
 <?php
     use yii\helpers\Url;
+    use app\assets\AppAsset;
+
+    AppAsset::register($this);
 ?>
 <!DOCTYPE html>
  <html>
