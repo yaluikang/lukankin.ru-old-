@@ -5,8 +5,7 @@
 
  class AppAsset extends AssetBundle
  {
-     public $basePath = 'var/www/lukankin.ru';
-     public $baseUrl = 'web/';
+     public $sourcePath = 'var/www/lukankin.ru/web';
      public $css = [
 
      ];
